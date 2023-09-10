@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinámica</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminue o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Img-P.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="Imagens/Img-m.png" type="image/png">
+        <img src="Imagens/Img-G.png" alt="Imagem flexisivel funciona ">
+    
+    </picture>
+    <h1>reproduzindo audio</h1>
+
+    <p>vamos aprender a tocar audio em html</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/backcourse_marker.wav" type="audio/wav">
+        <p>caso nâo consiga baixar <a href="midia/backcourse_marker.wav">acesse aqui</a></p>
+    </audio>
+
+
+
+
+</body>
+</html>

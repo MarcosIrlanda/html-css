@@ -1,0 +1,25 @@
+
+@charset"utf-8";
+        
+
+        
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: aqua;
+    background-color: brown;
+}
+
+h2{
+    color: burlywood;
+}
+
+p{
+     
+    text-align: justify;
+
+}
